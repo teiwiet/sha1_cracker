@@ -6,7 +6,6 @@ use std::{
 };
 use sha1::Digest;
 use std::env;
-
 const SHA1_STRING_LENGTH : usize = 40;
 fn main()->Result<(),Box<dyn Error>>{
     let args:Vec<String> = env::args().collect();
